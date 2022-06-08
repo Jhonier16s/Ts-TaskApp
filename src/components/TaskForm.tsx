@@ -35,7 +35,7 @@ const TaskForm = ({addANewTask}:Props) => {
       <form onSubmit={handleNewTask}>
         <input 
         type="text" 
-        placeholder='write a title' 
+        placeholder='write a titleee' 
         name="title" 
         className="form-control mb-3 rounded-0 shadow-none border-0" 
         onChange={handleChange}
